@@ -12,7 +12,13 @@ ethernet variation too.
 
 ## Usage
 
-Create a Python virtual environment, activate it, and install 
+Update `poll.py` with your own logger's IP and port, as well as inverter
+serial number.
+
+Configure the InfluxDB endpoints and credentials, or remove and replace
+with your own data recording implementation.
+
+To run, create a Python virtual environment, activate it, and install 
 dependencies:
 
 ```
@@ -29,7 +35,7 @@ Run the poller client:
 python3 poll.py
 ```
 
-### References:
+## References:
 
 Uses Pysolarmanv5: https://github.com/jmccrohan/pysolarmanv5
 
