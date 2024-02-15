@@ -1,7 +1,7 @@
 # Inverter Poll
 
 Queries a number of values from a Deye inverter with a Solarman 
-"stick logger" device attached, and posts them to an InfluxDB 2 
+"stick logger" device attached, and posts them to an InfluxDB 1.x 
 timeseries database.
 
 These values can then be graphed using Grafana, Chronograf, or other
